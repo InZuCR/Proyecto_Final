@@ -1,6 +1,7 @@
 #!/bin/python
 
 # Read data from a BH1750 digital light sensor.
+# Si puedo hacer cambios
 
 import smbus
 import time
