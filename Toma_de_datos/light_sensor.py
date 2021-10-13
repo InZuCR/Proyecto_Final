@@ -32,3 +32,11 @@ def readLight(addr=DEVICE):
   return convertToNumber(data)
 
 def main():
+    while True:
+    lightLevel=readLight()
+    print("Light Level : " + format(lightLevel,'.2f') + " lx")
+    #print("light level: " +str(lightLevel) + " lx")
+    time.sleep(2)
+
+if __name__=="__main__":
+   main()
