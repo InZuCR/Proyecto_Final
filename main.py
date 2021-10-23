@@ -10,8 +10,8 @@ import BH1750 as ls
 import time
 from Adafruit_IO import Client, Feed, RequestError
 
-IO_KEY = '459248a776c54c829a77c82391642482'
-IO_USERNAME = 'carlosr413'
+IO_KEY = 'ADAKEY'
+IO_USERNAME = 'ADAUSER'
 
 # Instancia un cliente REST
 aio = Client(IO_USERNAME,IO_KEY)
