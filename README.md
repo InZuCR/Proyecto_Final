@@ -10,3 +10,7 @@
  sudo pip3 install adafruit-io
  
  Recuerde cambiar la llave y el usuario por las que Adafruit le otorga
+ 
+ Si requiere mas información de la plataforma Adafruit io, siga el siguiente enlace:
+ 
+ https://learn.adafruit.com/adafruit-io
